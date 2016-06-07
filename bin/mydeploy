@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var mydeploy = require('../lib');
+var option     = require('commander').parse(process.argv);
+var pkg        = require('../package.json');
+
+mydeploy(option);
+
+require('update-notifier')({pkg}).notify(); 

@@ -1,0 +1,7 @@
+'use strict';
+
+function mydeploy(settings){
+	console.log(settings);
+}
+
+module.exports = mydeploy;

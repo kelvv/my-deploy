@@ -1,0 +1,31 @@
+{
+  "name": "my-deploy",
+  "version": "1.0.0",
+  "description": "A hansome project for deployment",
+  "main": "./bin/index.js",
+  "scripts": {
+	"start": "node ./bin/mydeploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvv/hot-deploy.git"
+  },
+  "keywords": [
+    "deploy",
+    "reload",
+    "git",
+    "githook",
+    "gitdeploy"
+  ],
+  "author": "kelvv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvv/hot-deploy/issues"
+  },
+  "homepage": "https://github.com/kelvv/hot-deploy#readme",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "update-notifier": "^0.7.0"
+  }
+}
