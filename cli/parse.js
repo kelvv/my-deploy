@@ -16,6 +16,6 @@ program
 program
 	.command('init <path>')
 	.description('init project - get mydeploy.config')
-	.action(mydeploy.start)
+	.action(mydeploy.init)
 
 module.exports = program;

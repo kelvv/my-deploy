@@ -1,0 +1,14 @@
+{
+    "url": "*** url of your git respository ***",
+    "interval": 1000,
+    "map": [
+        {
+            "mode":"tag",
+            "value":"v[a-z]+"
+        },
+        {
+            "mode":"push",
+            "value":"ok"
+        }
+    ]
+}
