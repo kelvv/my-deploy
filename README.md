@@ -1,2 +1,2 @@
-# hot-deploy
-A hansome deploy project
+# my-deploy
+A hansome project for deployment
