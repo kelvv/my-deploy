@@ -2,9 +2,11 @@
 
 'use strict';
 
-var mydeploy = require('../lib');
-var option     = require('commander').parse(process.argv);
+var mydeploy   = require('../lib');
+var option     = require('../cli/parse').parse(process.argv);
 var pkg        = require('../package.json');
+
+if(option.args.length === 0) option.help();
 
 mydeploy(option);
 

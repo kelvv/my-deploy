@@ -1,15 +1,15 @@
       G                   
       DD~
       DDDDDD~
-      DDDDDDDDD~
-      D H    H DDDD~
-      D H    H DDDDDD~
-      D HHHHHH DDDDDDDD~
-      D H    H DDDDDD~
-      D H    H DDDD~
-      DDDDDDDDD~
+      DDDDDDDDDDDDD~
+      D M       M DD~
+      D MM     MM DDD~
+      D M M   M M DDDD~
+      D M  M H  M DDd~
+      D M   M   M DD~
+      DDDDDDDDDDDDD~
       DDDDDDD~
       DDDD~
       DD
-      HHHHHHHHHHHHHHHHHHHHH
+      MMMMMMMMMMMMMMMMMMMMM
       DDDDDDDDDDDDDDDDDDDDD
