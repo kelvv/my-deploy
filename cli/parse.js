@@ -19,6 +19,8 @@ program
 program
 	.command('init')
 	.description('init project - get mydeploy.config')
+	.option('-l, --localdir <path>','the source path you want to deploy')
+	.option('-u, --url <url>','the url link to your project')
 	.action(mydeploy.init)
 
 program.on('--help', function() {

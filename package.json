@@ -1,9 +1,11 @@
 {
   "name": "my-deploy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A hansome project for deployment",
   "main": "./bin/index.js",
-  "bin": { "mydeploy": "bin/mydeploy.js" },
+  "bin": {
+    "mydeploy": "bin/mydeploy.js"
+  },
   "scripts": {
     "start": "node ./bin/mydeploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -29,6 +31,7 @@
     "colors-cli": "^1.0.7",
     "commander": "^2.9.0",
     "git-tools": "^0.2.1",
+    "jsonfile": "^2.3.1",
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {}
