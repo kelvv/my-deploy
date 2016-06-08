@@ -1,2 +1,2 @@
 # my-deploy
-A hansome project for deployment
+An hansome project for deployment
