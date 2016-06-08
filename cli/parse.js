@@ -1,21 +1,31 @@
 'use strict'
 
-let program  = require('commander');
-let pkg		 = require('../package.json');
-let mydeploy = require('../lib');
+let program  = load('commander');
+let pkg		 = load('../package.json');
+let mydeploy = load('../lib');
 
 program
 	.version(pkg.version);
 
 
 program
-	.command('start <path>')
-	.description('path of your project with git')
+	.command('start')
+	.description('begin service')
+	.option('-s, --sourcepath <path>','the source path you want to deploy')
+	.option('-c, --config <path>','config file path')
+	.option('-p, --port <n>','port')
 	.action(mydeploy.start)
 
 program
-	.command('init <path>')
+	.command('init')
 	.description('init project - get mydeploy.config')
 	.action(mydeploy.init)
+
+program.on('--help', function() {
+    console.log('  Examples:');
+    console.log();
+    console.log('    $ start -s /path/to/your/project');
+    console.log();
+  });
 
 module.exports = program;

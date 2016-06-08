@@ -1,7 +1,6 @@
 {
     "mode": "webhook",
     "url": "https://github.com/kelvv/test.git",
-    "localdir": "/Users/jarvin/Desktop/test",
     "rules": [
         {
             "type":"tag",

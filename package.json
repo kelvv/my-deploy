@@ -27,6 +27,7 @@
   "dependencies": {
     "colors-cli": "^1.0.7",
     "commander": "^2.9.0",
+    "git-tools": "^0.2.1",
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {}
