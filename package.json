@@ -32,6 +32,7 @@
     "commander": "^2.9.0",
     "git-tools": "^0.2.1",
     "jsonfile": "^2.3.1",
+    "log4js": "^0.6.36",
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {}
