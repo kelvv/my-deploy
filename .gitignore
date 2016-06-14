@@ -35,3 +35,4 @@ node_modules
 mydeploy.json
 *.log
 *.out
+*.vscode

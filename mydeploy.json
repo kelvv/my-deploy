@@ -1,15 +1,17 @@
 {
-    "mode": "webhook",
+    "mode": "pullwatch",
     "url": "https://github.com/kelvv/test.git",
     "localdir": "/Users/jarvin/Desktop/test",
+    "interval":3000,
+    "branch":"master",
     "rules": [
         {
             "type": "tag",
-            "value": "*"
+            "value": "[vV]\\d+"
         },
         {
-            "type": "push",
-            "value": "release"
+            "type": "commit",
+            "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77"
         }
     ]
 }

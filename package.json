@@ -28,12 +28,15 @@
   },
   "homepage": "https://github.com/kelvv/hot-deploy#readme",
   "dependencies": {
+    "co": "^4.6.0",
     "colors-cli": "^1.0.7",
     "commander": "^2.9.0",
     "git-tools": "^0.2.1",
     "jsonfile": "^2.3.1",
     "log4js": "^0.6.36",
-    "update-notifier": "^0.7.0"
+    "request": "^2.72.0",
+    "update-notifier": "^0.7.0",
+    "url-parse": "^1.1.1"
   },
   "devDependencies": {}
 }
