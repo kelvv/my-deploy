@@ -1,7 +1,7 @@
 {
-    "mode": "pullwatch",
-    "url": "https://github.com/kelvv/test.git",
-    "localdir": "/Users/jarvin/Desktop/test",
+	"mode": "pullwatch",
+    "url": "https://Jarvin_Guan@bitbucket.org/mpointstudio/mpoint.web.git",
+    "localdir": "/Users/jarvin/Desktop/mpoint.web",
     "interval":3000,
     "branch":"master",
     "rules": [

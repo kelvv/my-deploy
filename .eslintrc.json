@@ -1,0 +1,20 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "linebreak-style": [ "error", "unix" ],
+        "quotes": [ "error", "single" ],
+        "semi": ["error" , "always" ],
+        "comma-dangle":[ "error", "never" ],
+        "no-dupe-args": "error",
+        "no-unused-vars": "error",
+        "no-multi-spaces": ["error", { "exceptions": { "VariableDeclarator": true } }],
+        "no-var": "error",
+        "no-empty": "error",
+        "block-spacing": ["error", "never"],
+        "brace-style": "error",
+        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
+    }
+}

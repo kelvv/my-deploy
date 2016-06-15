@@ -1,0 +1,36 @@
+{
+    "mode": "webhook",
+    "url": "your url of git use http",
+    "localdir": "/path/of/your/local/project",
+    "rules": [
+        {
+            "type":"tag",
+            "value":"*"
+        },
+        {
+            "type":"push",
+            "value":"release"
+        }
+    ]
+}
+
+/*
+{
+	"mode": "pullwatch",
+    "url": "your url of git use http",
+    "localdir": "/path/of/your/local/project",
+    "interval":3000,
+    "branch":"master",
+    "rules": [
+        {
+            "type": "tag",
+            "value": "[vV]\\d+"
+        },
+        {
+            "type": "commit",
+            "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77"
+        }
+    ]
+}
+
+*/
