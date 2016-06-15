@@ -9,7 +9,9 @@
   "scripts": {
     "start": "node ./bin/mydeploy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint lib/**  --fix"
+    "lint": "eslint lib/** ",
+    "lint-fix" : "eslint lib/** --fix",
+    "commit": "commit-wizard"
   },
   "repository": {
     "type": "git",
@@ -39,5 +41,19 @@
     "update-notifier": "^0.7.0",
     "url-parse": "^1.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "pre-git": "^3.9.0"
+  },
+  "config": {
+    "pre-git": {
+      "commit-msg": "simple",
+      "pre-commit": [
+        "npm run lint"
+      ],
+      "pre-push": [],
+      "post-commit": [],
+      "post-checkout": [],
+      "post-merge": []
+    }
+  }
 }
