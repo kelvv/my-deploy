@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node ./bin/mydeploy.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ava --watch --verbose",
     "lint": "eslint lib/** ",
     "lint-fix": "eslint lib/** --fix",
     "commit": "commit-wizard"
@@ -39,7 +39,10 @@
     "update-notifier": "^0.7.0"
   },
   "devDependencies": {
-    "pre-git": "^3.9.0"
+    "ava": "^0.15.2",
+    "mocha": "^2.5.3",
+    "pre-git": "^3.9.0",
+    "should": "^9.0.2"
   },
   "config": {
     "pre-git": {
