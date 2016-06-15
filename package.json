@@ -10,7 +10,7 @@
     "start": "node ./bin/mydeploy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint lib/** ",
-    "lint-fix" : "eslint lib/** --fix",
+    "lint-fix": "eslint lib/** --fix",
     "commit": "commit-wizard"
   },
   "repository": {
@@ -34,19 +34,16 @@
     "co": "^4.6.0",
     "colors-cli": "^1.0.7",
     "commander": "^2.9.0",
-    "git-tools": "^0.2.1",
     "jsonfile": "^2.3.1",
     "log4js": "^0.6.36",
-    "request": "^2.72.0",
-    "update-notifier": "^0.7.0",
-    "url-parse": "^1.1.1"
+    "update-notifier": "^0.7.0"
   },
   "devDependencies": {
     "pre-git": "^3.9.0"
   },
   "config": {
     "pre-git": {
-      "commit-msg": "simple",
+      "commit-msg": "",
       "pre-commit": [
         "npm run lint"
       ],
