@@ -15,6 +15,7 @@
         "no-empty": "error",
         "block-spacing": ["error", "never"],
         "brace-style": "error",
-        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
+        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+        "space-in-parens": ["error", "always"]
     }
 }

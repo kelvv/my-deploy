@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./bin/mydeploy.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint lib/**"
+    "lint": "eslint lib/**  --fix"
   },
   "repository": {
     "type": "git",
