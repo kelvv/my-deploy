@@ -3,7 +3,7 @@
     "url": "https://github.com/kelvv/test.git",
     "localdir": "/Users/jarvin/Desktop/test",
     "interval":3000,
-    "branch":"kelvv",
+    "branch":"master",
     "rules": [
         {
             "type": "tag",

@@ -32,7 +32,6 @@
   "homepage": "https://github.com/kelvv/hot-deploy#readme",
   "dependencies": {
     "co": "^4.6.0",
-    "colors-cli": "^1.0.7",
     "commander": "^2.9.0",
     "jsonfile": "^2.3.1",
     "log4js": "^0.6.36",
