@@ -1,21 +1,4 @@
 {
-    "mode": "webhook",
-    "url": "your url of git use http",
-    "localdir": "/path/of/your/local/project",
-    "rules": [
-        {
-            "type":"tag",
-            "value":"*"
-        },
-        {
-            "type":"push",
-            "value":"release"
-        }
-    ]
-}
-
-/*
-{
 	"mode": "pullwatch",
     "url": "your url of git use http",
     "localdir": "/path/of/your/local/project",
@@ -32,5 +15,3 @@
         }
     ]
 }
-
-*/
