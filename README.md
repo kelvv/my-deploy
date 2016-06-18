@@ -40,21 +40,18 @@ And my-deploy will be installed globally to your system path.
 
 
 1. First of all , you need to check your envirment
-
        ```
 $ git --version
 git version 2.7.4 (Apple Git-66)
 ```
 
 2. Create mydeploy config file
-
        ```
 $ cd /path/of/the/config/file/you/want/to/locate
 $ mydeploy init
 ```
 
 3. Setup the config file what you need 
-
        ```
 $ vi .mydeploy.json
 ---pullwatch---
@@ -98,7 +95,6 @@ $ vi .mydeploy.json
 ```
 
 3. Start  
-
        ```
 $ mydeploy start
 or
