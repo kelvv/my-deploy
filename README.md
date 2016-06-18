@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000?style=plastic)
 ![node](https://img.shields.io/badge/node-4.x-blue.svg)
 ![downloads](https://img.shields.io/badge/downloads-1K%2Fmonth-brightgreen.svg)
-![build](https://travis-ci.org/kelvv/my-deploy.svg?branch=master)
+[![Build Status](https://travis-ci.org/kelvv/my-deploy.svg?branch=master)](https://travis-ci.org/kelvv/my-deploy)
 
 
 It is a **tool** for use during development or production of a node.js based application whitch power by git.
