@@ -24,9 +24,22 @@ program
 	.action(mydeploy.init)
 
 program.on('--help', function() {
+    console.log('    start options:');
+    console.log('       -s, --sourcepath  the source path you want to deploy');
+	console.log('       -c, --config      config file path');
+	console.log('       -p, --port        my-deploy port');
+
+	console.log();
+
+	console.log('    init options:');
+    console.log('       -l, --localdir  the source path you want to deploy');
+	console.log('       -u, --url       the url link to your project');
+
+	console.log();
+	
     console.log('  Examples:');
     console.log();
-    console.log('    $ start -s /path/to/your/project');
+    console.log('    $ start -s /path/to/your/project -p 3000');
     console.log();
   });
 
