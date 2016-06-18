@@ -1,24 +1,22 @@
 #my-deploy
-___
 
-**It is a tool ** for use during development or production of a node.js based application whitch power by git.
+It is a **tool** for use during development or production of a node.js based application whitch power by git.
 
 The only work you need to do is to Prepare the my-deploy configuration file for your project.
 
 my-deploy used git to check or update your project file , so your project must under git .
 
 my-deploy support two mode:
-* pullwatch   :   Repeate fetch and check in a fixed time
-* webhook   :   watching http request and check if need update the project
+* **pullwatch**   :   Repeate fetch and check in a fixed time
+* **webhook**   :   watching http request and check if need update the project
 
-operator system support:    window , mac ox , linux
+operator system support:    **window , mac ox , linux**
 
-version control support:    github , bitbucket , gitcafe  ... ... ...
+version control support:    **github , bitbucket , gitcafe  ... ... ...**
 
 Let play!
 
 #Installation
-___
 
 using [npm](http://npmjs.org/) (the recommended way):
 
@@ -29,7 +27,7 @@ $ npm install -g my-deploy
 And my-deploy will be installed globally to your system path.
 
 #Usage
-____
+
 
 
 1. First of all , you need to check your envirment
