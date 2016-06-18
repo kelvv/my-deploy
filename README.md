@@ -22,6 +22,9 @@ version control support:    **github , bitbucket , gitcafe  ... ... ...**
 
 Let play!
 
+how to use ---> [demo movie](http://v.youku.com/v_show/id_XMTYxMjc0ODg3Mg==.html)
+
+
 #Installation
 
 using [npm](http://npmjs.org/) (the recommended way):
