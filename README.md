@@ -1,6 +1,7 @@
 #my-deploy
 
 ![](https://img.shields.io/badge/node-4.x-blue.svg)
+![](https://img.shields.io/badge/downloads-1K%2Fmonth-brightgreen.svg)
 
 It is a **tool** for use during development or production of a node.js based application whitch power by git.
 
