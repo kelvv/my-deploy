@@ -36,3 +36,4 @@ mydeploy.json
 *.log
 *.out
 *.vscode
+＊.swp
