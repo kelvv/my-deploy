@@ -22,7 +22,7 @@ version control support:    **github , bitbucket , gitcafe  ... ... ...**
 
 Let play!
 
-[demo movie](http://v.youku.com/v_show/id_XMTYxMjc0ODg3Mg==.html)
+how to use ---> [demo movie](http://v.youku.com/v_show/id_XMTYxMjc0ODg3Mg==.html)
 
 
 #Installation
