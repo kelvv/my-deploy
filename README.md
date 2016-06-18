@@ -11,6 +11,10 @@ my-deploy support two mode:
 * pullwatch   :   Repeate fetch and check in a fixed time
 * webhook   :   watching http request and check if need update the project
 
+operator system support:    window , mac ox , linux
+
+version control support:    github , bitbucket , gitcafe  ... ... ...
+
 Let play!
 
 #Installation
