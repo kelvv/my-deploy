@@ -104,3 +104,7 @@ $ mydeploy start -c 'path/to/config/file'
 
 now , your project file will update automatically
 #enjoy!
+
+## License
+
+  MIT
