@@ -22,7 +22,7 @@ version control support:    **github , bitbucket , gitcafe  ... ... ...**
 
 Let play!
 
-[](https://pl9wba.dm2304.livefilestore.com/y3pnXMvY1MEQufT8o5aHHjKrheiXkf6t9xNo_1EMUpYk5cjUwKMKJywmsVD6-vjjMCRzym8NVx1sA0zRinhosKA162FCqv7ERaGBMNTzGCUKSwXTp458AH5JOmcIlhb_jhLgwI2QHtLlCXHkx5-UI1QiPzjNhpLjInybvyOE_L3oTQ/mydeploy.gif?psid=1)
+![](https://pl9wba.dm2304.livefilestore.com/y3pnXMvY1MEQufT8o5aHHjKrheiXkf6t9xNo_1EMUpYk5cjUwKMKJywmsVD6-vjjMCRzym8NVx1sA0zRinhosKA162FCqv7ERaGBMNTzGCUKSwXTp458AH5JOmcIlhb_jhLgwI2QHtLlCXHkx5-UI1QiPzjNhpLjInybvyOE_L3oTQ/mydeploy.gif?psid=1)
 
 
 #Installation
