@@ -1,5 +1,7 @@
 #my-deploy
 
+![](https://img.shields.io/badge/node-4.x-blue.svg)
+
 It is a **tool** for use during development or production of a node.js based application whitch power by git.
 
 The only work you need to do is to Prepare the my-deploy configuration file for your project.
