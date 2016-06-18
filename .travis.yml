@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+  - "5.11"
+  - "4.3.x"
+before_install:
+  - npm install
+script: 
+  - npm test
+sudo: false

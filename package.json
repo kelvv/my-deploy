@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node ./bin/mydeploy.js",
-    "test": "ava --watch --verbose",
+    "test": "ava  --verbose",
     "lint": "eslint lib/** ",
     "lint-fix": "eslint lib/** --fix",
     "commit": "commit-wizard"
