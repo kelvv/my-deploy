@@ -22,9 +22,7 @@ version control support:    **github , bitbucket , gitcafe  ... ... ...**
 
 Let play!
 
-<br>
-    <img  src="https://pl8nyg.dm2304.livefilestore.com/y3pn-h3BoNTLvtl_aTHSqTJspYJ3HR-w-wuDVxFg73sbSySB_4PzNAXRm2eMGnfhzy4Hgh22b4WL--UE3OGveD9mgX1mbGFq871i7BWevroqD-GT1X56RIlRnlKE53Gw2QCf-hsYTHmzP9AVFlHoMsDV8OAYLE1NN4BF0YiHIHBNeA/mydeploy3.gif?psid=1"/>
-</br>
+[demo movie](http://v.youku.com/v_show/id_XMTYxMjc0ODg3Mg==.html)
 
 
 #Installation
