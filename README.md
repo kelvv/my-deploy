@@ -68,11 +68,17 @@ $ vi .mydeploy.json
        "rules": [
            {
                "type": "tag",
-              "value": "[vV]\\d+"
+               "value": "[vV]\\d+",
+               "env":[
+                   "NODE_ENV=development"
+               ]
           },
           {
               "type": "commit",
-              "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77"
+              "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77",
+              "env":[
+                   "NODE_ENV=development"
+               ]
           }
       ]
   }
@@ -87,11 +93,17 @@ $ vi .mydeploy.json
        "rules": [
            {
                "type": "tag",
-              "value": "[vV]\\d+"
+               "value": "[vV]\\d+",
+               "env":[
+                    "NODE_ENV=development"
+                ]
           },
           {
               "type": "commit",
-              "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77"
+              "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77",
+              "env":[
+                   "NODE_ENV=development"
+               ]
           }
       ]
   }
