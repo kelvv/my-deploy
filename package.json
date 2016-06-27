@@ -1,6 +1,6 @@
 {
   "name": "my-deploy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A hansome project for deployment",
   "main": "./bin/index.js",
   "bin": {
