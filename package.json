@@ -47,7 +47,8 @@
     "pre-git": {
       "commit-msg": "",
       "pre-commit": [
-        "npm run lint"
+        "npm run lint-fix",
+        "git add ."
       ],
       "pre-push": [],
       "post-commit": [],
