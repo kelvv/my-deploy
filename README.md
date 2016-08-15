@@ -64,6 +64,9 @@ $ vi .mydeploy.json
        "url": "your url of git use http",
        "localdir": "/path/of/your/local/project",
        "interval": 3000,
+       "hook": {
+            "post-changed": "cmd for changed"
+        }
        "branch": "master",
        "rules": [
            {
@@ -89,6 +92,9 @@ $ vi .mydeploy.json
        "url": "your project url of git use http",
        "localdir": "/path/of/your/local/project",
        "branch": "master",
+       "hook": {
+            "post-changed": "cmd for changed"
+        }
        "port":"3100"
        "rules": [
            {
