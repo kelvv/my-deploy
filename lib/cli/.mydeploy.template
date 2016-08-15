@@ -3,6 +3,9 @@
     "url": "your url of git use http",
     "localdir": "/path/of/your/local/project",
     "interval":3000,
+    "hook": {
+        "post-changed": "cmd for changed"
+    }
     "branch":"master",
     "rules": [
         {

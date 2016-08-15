@@ -7,17 +7,11 @@
     "rules": [
         {
             "type": "tag",
-            "value": "[vV]\\d+",
-            "env":[
-                "NODE_ENV=development"
-            ]
+            "value": "[vV]\\d+"
         },
         {
             "type": "commit",
-            "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77",
-            "env":[
-                "NODE_ENV=development"
-            ]
+            "value": "#[\\s\\S]*?deploy\\s*[\\s\\S]*?77"
         }
     ]
 }
