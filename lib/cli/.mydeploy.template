@@ -4,7 +4,7 @@
     "localdir": "/path/of/your/local/project",
     "interval":3000,
     "hook": {
-        "post-changed": "cmd for changed"
+        "postchanged": "cmd for changed"
     },
     "branch":"master",
     "rules": [

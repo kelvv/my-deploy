@@ -65,7 +65,7 @@ $ vi .mydeploy.json
        "localdir": "/path/of/your/local/project",
        "interval": 3000,
        "hook": {
-            "post-changed": "cmd for changed"
+            "postchanged": "cmd for changed"
         }
        "branch": "master",
        "rules": [
@@ -93,7 +93,7 @@ $ vi .mydeploy.json
        "localdir": "/path/of/your/local/project",
        "branch": "master",
        "hook": {
-            "post-changed": "cmd for changed"
+            "postchanged": "cmd for changed"
         }
        "port":"3100"
        "rules": [
