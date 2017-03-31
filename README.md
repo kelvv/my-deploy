@@ -1,4 +1,4 @@
-#my-deploy  
+# my-deploy  
 
 ![npm](https://img.shields.io/npm/l/express.svg?maxAge=2592000?style=plastic)
 ![node](https://img.shields.io/badge/node-4.x-blue.svg)
@@ -25,7 +25,7 @@ Let play!
 how to use ---> [demo movie](http://v.youku.com/v_show/id_XMTYxMjc0ODg3Mg==.html)
 
 
-#Installation
+# Installation
 
 using [npm](http://npmjs.org/) (the recommended way):
 
@@ -35,7 +35,7 @@ $ npm install -g my-deploy
 
 And my-deploy will be installed globally to your system path.
 
-#Usage
+# Usage
 
 
 
